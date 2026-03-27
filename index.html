@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="screen active" id="screen1">
+  <h1 class="glow">Loading your birthday surprise... 🎁</h1>
+</div>
+
+<div class="screen" id="screen2">
+  <h1 class="glow">🎉 Happy Birthday Animesh Da 🎉</h1>
+  <button onclick="next(3)">Next ➡️</button>
+</div>
+
+<div class="screen" id="screen3">
+  <h2 class="fade">Animesh was born 22 years ago today ❤️</h2>
+  <button onclick="next(4)">Next ➡️</button>
+</div>
+
+<div class="screen" id="screen4">
+  <h2>Swipe anywhere to cut the cake 🎂</h2>
+  <div id="cake">🎂</div>
+  <button onclick="next(5)">Next ➡️</button>
+</div>
+
+<div class="screen" id="screen5">
+  <h2>Some Sweet Moments 💕</h2>
+
+  <div class="slider">
+    <img src="Screenshot_20260327_135051_Lite.jpg">
+    <img src="Screenshot_20260327_134939_Facebook.jpg">
+  </div>
+
+  <button onclick="next(6)">Next ➡️</button>
+</div>
+
+<div class="screen" id="screen6">
+  <h2>A Special Message 💌</h2>
+  <p id="typing"></p>
+  <h3 class="glow">🎊 The End 🎊</h3>
+</div>
+
+<audio id="music" src="https://www.bensound.com/bensound-music/bensound-romantic.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
